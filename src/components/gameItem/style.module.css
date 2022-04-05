@@ -1,0 +1,27 @@
+.gameItem{
+    text-decoration: none;
+    color: white;
+    width: 320px;
+    height: 340px;
+    background-color: rgb(36,37, 41);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.genres{
+    display: flex;
+    flex-wrap: wrap;
+}
+.genres span + span{
+    margin-left: 10px;
+}
+
+.details{
+    padding: 10px 20px;
+}

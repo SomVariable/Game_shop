@@ -1,0 +1,9 @@
+.gameBuy{
+    position: absolute;
+    right: 12px;
+    bottom: 0;
+}
+
+.price{
+    margin-right: 5px;
+}
