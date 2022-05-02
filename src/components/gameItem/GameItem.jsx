@@ -15,7 +15,7 @@ export const GameItem = ({gameData}) => {
                     {genres.map(genre => <GameGener genre = {genre}/>)}
                 </div>
                 <div className="buy">
-                    <GameBuy price = {price}/>
+                    <GameBuy game = {gameData}/>
                 </div>
             </div>
         </div>
